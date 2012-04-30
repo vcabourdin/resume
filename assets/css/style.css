@@ -1,0 +1,10 @@
+@media (min-width: 979px) {
+    body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+}
+
+.avatar {
+    margin: 0 15px 15px 0; 
+}

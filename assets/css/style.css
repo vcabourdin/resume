@@ -30,7 +30,8 @@ html {
     margin: 0 0 19px 0;
 }
 
-#bio .span2 .label .label-info {
+#bio .span2 .label,
+#bio .span2 .label a {
     color: #fff;
 }
 

@@ -30,6 +30,12 @@ html {
     margin: 0 0 19px 0;
 }
 
+#bio .span2 .label .label-info {
+    color: #fff;
+}
+
+
+
 @media (max-width: 767px) {
     #bio .span2 {
         text-align: center;

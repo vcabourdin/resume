@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
-        
+
         <script src="js/libs/cssua.min.js"></script>
 
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -15,9 +15,10 @@
         <![endif]-->
 
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="assets/css/style.css" rel="stylesheet" />
+        <link href="assets/css/style.css" rel="stylesheet" media="all" />
+        <link href="assets/css/print.css" rel="stylesheet" media="print" />
     </head>
-    <body>
+    <body id="me" data-spy="scroll">
         <div class="navbar navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container">
@@ -26,12 +27,29 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">Project name</a>
+                    <a class="brand" href="#bio">Valentin Cabourdin</a>
                     <div class="nav-collapse">
                         <ul class="nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li  class="active"><a href="#prof">Expérience professionnelle</a></li>
+                            <li><a href="#tech">Expertise technique</a></li>
+                            <li><a href="#etudes">Etudes</a></li>
+                        </ul>
+
+                        <ul class="nav pull-right">
+                            <li>
+                                <a href="https://twitter.com/vcabourdin" class="twitter-follow-button" data-show-count="false" data-lang="fr" data-show-screen-name="false">Suivre @vcabourdin</a>
+
+                            </li>
+                            <li>
+                                <a href="https://github.com/vcabourdin">
+                                    <span class="label label-info">Mon Github</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:window.print();">
+                                    <span class="label label-success">Imprimer</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -39,167 +57,289 @@
         </div>
 
         <div id="container" class="container">
-            <div class="row-fluid">
-                <p>
-                    <span class="label label-important">This resume is not complete...</span> 
-                </p>
-            </div>
-            <div class="row-fluid">
+            <div class="row-fluid" id="bio">
                 <div class="span2">
-                    <a href="#" class="avatar thumbnail">
+                    <a href="#" class="avatar">
                         <img src="assets/img/avatar.jpg" alt="My avatar">
                     </a>
                 </div>
-                <div class="span6">
-                    <h1>Front-end developer <small>Valentin Cabourdin</small></h1>
-                    <p>I'm 27 years old and I work since 2007 in the web industry.</p>
-                    <p>I'm currently specialized in developing <span class="label label-success">large scale applications</span> in JavaScript.</p>
+                <div class="span6 well">
+                    <h1>Développeur front-end</h1><br />
+                    <p>J'ai 27 ans et je réalise depuis 2007 des applications web dynamiques.  </p>
+                    <p>Je m'interesse particulierement au développement d'applications coté client en JavaScript.</p>
                 </div>
 
                 <div class="span4">
-                    <p><span class="label label-info">My favorite frameworks are</span></p>
+                    <p><span class="label label-info">Mes frameworks favoris</span></p>
                     <ul class="unstyled">
-                        <li><a target="_blank" href="http://requirejs.org" title="More info about requireJS">RequireJS</a> for <a href="http://requirejs.org/docs/whyamd.html" title="More info about AMD">AMD</a></li>
-                        <li><a target="_blank" href="http://documentcloud.github.com/backbone/" title="More info about Backbone.JS">Backbone.JS</a> for MCV</li>
-                        <li><a target="_blank" href="http://jquery.com/" title="More info about jQuery">jQuery</a> for dom manipulations</li>
-                        <li><a target="_blank" href="http://twitter.github.com/bootstrap/" title="More info about Twitter's Bootstrap">Twitter's Bootstrap</a> for beautiful responsive designs</li>
+                        <li><a target="_blank" href="http://requirejs.org" title="More info about requireJS">RequireJS</a> : <a href="http://requirejs.org/docs/whyamd.html" title="More info about AMD">AMD</a></li>
+                        <li><a target="_blank" href="http://documentcloud.github.com/backbone/" title="More info about Backbone.JS">Backbone.JS</a> : MVC</li>
+                        <li><a target="_blank" href="http://jquery.com/" title="More info about jQuery">jQuery</a> : manipulations du DOM et effets</li>
+                        <li><a target="_blank" href="http://twitter.github.com/bootstrap/" title="More info about Twitter's Bootstrap">Twitter's Bootstrap</a> : designs responsive</li>
                     </ul>
                 </div>
+                <hr />
             </div>
 
-            <div class="row-fluid">
-                <div class="span12">
-                    <h2>Professional Experience</h2>
+
+            <div id="prof">
+                <p></p>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <h2>Expérience professionnelle</h2>
+                    </div>
                 </div>
-            </div>
-            <p></p>
-            <div class="row-fluid">
-                <div class="span4">
-                    <h3>From 2011</h3>
-                    <p>
-                        <span class="label label-success">Positions</span> 
-                        Web developement manager and PHP/JavaScript developer
-                    </p>
-                    <p>
-                        <span class="label label-success">Company</span> 
-                        Neurones (Web application agency)
-                    </p>
+                <p></p>
+                <div class="row-fluid group">
+                    <div class="span4">
+                        <h3>Depuis 2011</h3>
+                        <p>
+                            <span class="label label-success">Postes</span> 
+                            Chef de projets web et développeur JavaScript/PHP
+                        </p>
+                        <p>
+                            <span class="label label-success">Société</span> 
+                            Neurones (Agence de développement)
+                        </p>
+                    </div>
+
+                    <div class="span4">
+                        <h3>De 2010 à 2011 </h3>
+                        <p>
+                            <span class="label">Postes</span> 
+                            Développeur JavaScript/PHP
+                        </p>
+                        <p>
+                            <span class="label">Société</span> 
+                            Label.ch (Agence de communication)
+                        </p>
+                    </div>
+
+                    <div class="span4">
+                        <h3>De 2007 à 2010 </h3>
+                        <p>
+                            <span class="label">Postes</span> 
+                            Chef de projets web et développeur JavaScript/PHP
+                        </p>
+                        <p>
+                            <span class="label">Société</span> 
+                            E-dkado (E-commerce)
+                        </p>
+                    </div>
+
                 </div>
-
-                <div class="span4">
-                    <h3>From 2010 to 2011 </h3>
-                    <p>
-                        <span class="label">Positions</span> 
-                        PHP/JavaScript developer
-                    </p>
-                    <p>
-                        <span class="label">Company</span> 
-                        Label.ch (Communication agency)
-                    </p>
-                </div>
-
-                <div class="span4">
-                    <h3>From 2007 to 2010 </h3>
-                    <p>
-                        <span class="label">Positions</span> 
-                        Web developement manager and PHP/JavaScript developer
-                    </p>
-                    <p>
-                        <span class="label">Company</span> 
-                        E-dkado (E-Shop)
-                    </p>
-                </div>
-
-            </div>
-
-            <hr />
-
-            <div class="row-fluid">
-                <div class="span12">
-                    <h2>Technical Expertise</h2>
-                </div>
-            </div>
-            <p></p>
-            <div class="row-fluid">
-                <dl class="dl-horizontal">
-                    <dt>IHM</dt>
-                    <dd>Architectures applicatives</dd>
-                    <dd>Interfaces graphiques</dd>
-                    <dd>Ergonomie des applications</dd>
-                    <dd>Développement de composants graphiques Web</dd>
-                    <dd>HTML5, CSS3</dd>
-                    <dd>Compatibilité multi navigateurs (IE6, IE7, IE8, IE9, Firefox, Opera, Safari, Chrome)</dd>
-                    <dd>Développement d’applications web mobiles</dd>
-                    <dd>Responsive Design (Bootstrap.js)</dd>
-
-
-
-                    <dt>JavaScript / Ajax </dt>
-                    <dd>Large scale applications</dd>
-                    <dd>Frameworks MVC (Backbone.js)</dd>
-                    <dd>Expert Jquery et Mootools</dd>
-                    <dd>Patterns</dd>
-                    <dd>Jquery mobile</dd>
-
-
-                    <dt>Atlassian products</dt>
-                    <dd>Issue tracker : Jira, Greenhopper, tempo</dd>
-                    <dd>Code source / Code review : Fisheye, Crucible</dd>
-                    <dd>Documentation : Confluence</dd>
-
-
-                    <dt>Agile management</dt>
-                    <dd></dd>
-                    <dd></dd>
-                    <dd></dd>
-                    <dd></dd>
-                    <dd></dd>
-
-                    <dt>Agile management</dt>
-                    <dd></dd>
-                    <dd></dd>
-                    <dd></dd>
-                    <dd></dd>
-                    <dd></dd>
-
-                </dl>
+                <hr />
             </div>
 
-            <hr />
-
-            <div class="row-fluid">
-                <div class="span12">
-                    <h2>Education</h2>
+            <div id="tech">
+                <p></p>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <h2>Expertise technique</h2>
+                    </div>
                 </div>
+                <p></p>
+                <div class="row-fluid group">
+                    <div class="span4 well">
+                        <h3>
+                            JavaScript
+                            <span class="label label-success">+++</span> 
+                        </h3>
+                        <em>
+                            Développement d'un quizz avec BackboneJS
+                        </em>
+                        <hr />
+                        <ul>
+                            <li>Applications de taille importante</li>
+                            <li>Frameworks MVC (Backbone.js)</li>
+                            <li>Expert Jquery et Mootools</li>
+                            <li>Module pattern</li>
+                            <li>Jquery mobile</li>
+                        </ul>
+                    </div>
+
+                    <div class="span4 well">
+                        <h3>
+                            IHM
+                            <span class="label label-success">+++</span> 
+                        </h3>
+                        <em>
+                            Développement d'un thème drupal responsive
+                            <br />
+                            Ce CV est responsive !
+                        </em>
+                        <hr />
+                        <ul>
+                            <li>HTML5, CSS3</li>
+                            <li>Responsive Design (Bootstrap.js)</li>
+                            <li>Ergonomie des applications</li>
+                            <li>Développement d’applications web mobiles</li>
+                            <li>Développement de composants graphiques Web</li>
+                            <li>Compatibilité multi navigateurs (IE6, IE7, IE8, IE9, Firefox, Opera, Safari, Chrome)</li>
+                        </ul>
+                    </div>
+
+                    <div class="span4 well">
+                        <h3>
+                            Sénior PHP5 Objet
+                            <span class="label label-success">++</span> 
+                        </h3>
+                        <hr />
+                        <ul>
+                            <li>Architectures MVC</li>
+                            <li>Frameworks PHP (Symfony, Yii, Silex…)</li>
+                            <li>Test unitaires PHPUnit</li>
+                            <li>Bases de données MySQL, SQL</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row-fluid group">
+
+                    <div class="span4 well">
+                        <h3>
+                            Agile management
+                            <span class="label label-success">+</span> 
+                        </h3>
+                        <hr />
+                        <ul>
+                            <li>Modélisation de processus de gestion de projet Agile</li>
+                            <li>Optimisation et automatisation des processus de développement</li>
+                            <li>Méthodes Kanban et Scrum</li>
+                            <li>Gestion de projets multiples en flux (Kanban)</li>
+                            <li>Gestion d’équipe</li>
+                        </ul>
+                    </div>
+
+                    <div class="span4 well">
+                        <h3>
+                            Versionning
+                            <span class="label label-success">++</span> 
+                        </h3>
+                        <hr />
+                        <ul>
+                            <li>DVCS (GIT, MERCURIAL)</li>
+                            <li>VCS (SVN)</li>
+                        </ul>
+                    </div>
+
+                    <div class="span4 well">
+                        <h3>
+                            Atlassian products
+                            <span class="label label-success">+++</span> 
+                        </h3>
+                        <em>
+                            Mise en place des outils adaptés au processus de l'entreprise
+                        </em>
+                        <hr />
+                        <ul>
+                            <li>Issue tracker : Jira, Greenhopper, tempo</li>
+                            <li>Code source / Code review : Fisheye, Crucible</li>
+                            <li>Documentation : Confluence</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row-fluid group">
+                    <div class="span4 well">
+                        <h3>E-commerce</h3>
+                        <hr />
+                        <ul>
+                            <li>Développement de solutions e-commerce personnalisées</li>
+                            <li>Expertises dans les solutions open source sous joomla (Virtuemart, Hikashop…)</li>
+                            <li>Systèmes de paiement</li>
+                        </ul>
+                    </div>
+
+                    <div class="span4 well">
+                        <h3>
+                            CMS open sources
+                            <span class="label label-success">+++</span> 
+                        </h3>
+                        <hr />
+                        <ul>
+                            <li>Expert Joomla : Configuration, développement d’extensions, templates</li>
+                            <li>Drupal : Configuration, développement d’extensions, templates</li>
+                            <li>Wordpress : Configuration, développement d’extensions, templates</li>
+                            <li>Liferay : Configuration basique d’intranet</li>
+                        </ul>
+                    </div>
+
+                    <div class="span4 well">
+                        <h3>SEO référencement</h3>
+                        <hr />
+                        <ul>
+                            <li>Connaissance des outils Google (Analytics, Adwords, webmaster tools,…)</li>
+                            <li>Connaissance avancées des règles de sémantique pour un bon référencement</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row-fluid group">
+                    <div class="span4 well">
+                        <h3>Design</h3>
+                        <ul>
+                            <li>Web design</li>
+                            <li>Retouche photo</li>
+                        </ul>
+                    </div>
+
+                    <div class="span4 well">
+                        <h3>Autre connaissances</h3>
+                        <ul>
+                            <li>Administration de serveur LAMP et WAMP</li>
+                            <li>Flash : Bases d’action script</li>
+                            <li>Bases scolaires dans d’autres langages : C++, .NET, Java, ADA</li>
+                        </ul>
+                    </div>
+
+                    <div class="span4 well">
+                        <h3>Langues</h3>
+                        <ul>
+                            <li>Anglais lu et parlé</li>
+                            <li>Bases en Espagnole</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
             </div>
-            <p></p>
-            <div class="row-fluid">
-                <div class="span6">
-                    <h3>DUT informatique</h3>
-                    <p>
-                        Option génie logiciel in Grenoble
-                    </p>
-                </div>
 
-                <div class="span6">
-                    <h3>Licence MIAM</h3>
-                    <p>
-                        Métiers de l’Internet et des Applications Multimédias in Grenoble
-                    </p>
+            <div class="spy" id="etudes">
+                <p></p>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <h2>Etudes</h2>
+                    </div>
                 </div>
+                <p></p>
+                <div class="row-fluid group">
+
+                    <div class="span12">
+                        <dl class="dl-horizontal">
+                            <dt>Licence MIAM</dt>
+                            <dd>Métiers de l’Internet et des Applications Multimédias in Grenoble</dd>
+                            <dt>DUT informatique</dt>
+                            <dd>Option génie logiciel in Grenoble</dd>
+                        </dl>
+                    </div>
+                </div>
+                <hr />
             </div>
 
-            <hr />
 
-            <footer>
-                <p>&copy; Company 2012</p>
-            </footer>
+
+            <div id="footer">
+                <a target="_blank" class="btn" href="https://raw.github.com/vcabourdin/resume/gh-pages/js/modules/resume.js" title="Voir le JavaScript de cette page">Voir le JavaScript de cette page</a>
+            </div>
 
         </div> <!-- /container -->
-        <div class="resize"></div>
-        
+        <!--        <div class="resize"></div>-->
+
         <!-- Placed at the end of the document so the pages load faster -->
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-        <script src="js/libs/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/libs/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/modules/resume.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     </body>
 </html>

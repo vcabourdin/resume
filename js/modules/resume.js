@@ -7,8 +7,8 @@
 (function(self, $) {
     //Private parameters
     var options = {
-       fadeIn : 1000,
-       delayShow:1000
+       fadeIn : 750,
+       delayShow:500
     }
     
     //Caching dom elements

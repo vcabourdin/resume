@@ -4,6 +4,10 @@ hr {
     display: none;
 }
 
+h2 {
+    margin: 25px 0 5px 0;
+}
+
 #bio div {
     float: left;
 }
@@ -11,12 +15,31 @@ hr {
 #bio .span2 {
     width:20%;
     padding: 25px 0 0 0;
+    text-align: left
 }
+
 #bio .span4 {
+    margin: 19px 0 0 0;
     width:100%;
 }
+
+#bio .span4 span.label {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    height: 36px;
+    line-height: 36px;
+}
+
+
 #bio .span6 {
+    margin: 19px 0 0 0;
     width:80%;
+}
+
+.icon-user {
+    margin: 0;
+    padding: 0;
 }
 
 .well {
@@ -25,8 +48,8 @@ hr {
     -moz-box-shadow: none;
     box-shadow: none;
     text-shadow:none;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    margin: 0;
+    padding: 0;
 }
 
 h3 span.label {
@@ -40,4 +63,3 @@ span.label {
     color: #000;
     padding: 0;
 }
-

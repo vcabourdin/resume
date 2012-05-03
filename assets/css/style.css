@@ -1,7 +1,13 @@
-
+.center {
+    text-align: center;
+}
 
 .navbar {
     position: static;
+}
+
+.navbar .brand {
+    color: #fff;
 }
 
 @media (min-width: 979px) {
@@ -16,10 +22,8 @@
 }
 
 .twitter-follow-button {
-    margin-top: 9px;
+    margin: 9px 0 0 10px;
 }
-
-
 
 .avatar {
     display: block;

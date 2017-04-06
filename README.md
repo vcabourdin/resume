@@ -3,6 +3,7 @@ Valentin Cabourdin
 
 
 You can find my PDF resume here: [View & Download](https://vcabourdin.github.io/resume/Valentin%20Cabourdin-Resume.pdf)
+
 Online version of this markdown: [View](https://vcabourdin.github.io/resume/)
 
 * [Ansible galaxy](https://galaxy.ansible.com/vcabourdin/)

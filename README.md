@@ -9,9 +9,10 @@ My resume
 
 ***Projects on Github - https://github.com/vcabourdin :***
 
-*   Ansible rôles:
-** 
-** 
+* Ansible rôles:
+  * ansible-owncloud-client - https://github.com/vcabourdin/ansible-owncloud-client 
+  * ansible-terminator - https://github.com/vcabourdin/ansible-terminator
+
 *   jQuery-Module-Pattern - https://github.com/vcabourdin/jQuery-Module-Pattern
 *   Backbone-App - https://github.com/vcabourdin/Backbone-App
 *   Weblabs - https://github.com/vcabourdin/weblabs

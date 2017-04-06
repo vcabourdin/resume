@@ -1,10 +1,10 @@
 resume
 ======
 
-You can find my PDF resume here [Download](https://github.com/vcabourdin/resume/blob/master/Valentin%20Cabourdin-Resume.pdf)
+You can find my PDF resume here: [View & Download](https://github.com/vcabourdin/resume/blob/master/Valentin%20Cabourdin-Resume.pdf)
 
 **Valentin Cabourdin**
-*   [My resume](https://github.com/vcabourdin/resume/blob/master/Valentin%20Cabourdin-Resume.pdf) on Github
+*   [Ansible galaxy](https://galaxy.ansible.com/vcabourdin/)
 *   [@vcabourdin](http://twitter.com/vcabourdin) on twitter 
 
 ***Projects on Github - https://github.com/vcabourdin :***

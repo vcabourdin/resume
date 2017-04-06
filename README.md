@@ -4,8 +4,6 @@ Valentin Cabourdin
 
 You can find my PDF resume here: [View & Download](https://vcabourdin.github.io/resume/Valentin%20Cabourdin-Resume.pdf)
 
-Online version of this markdown: [View](https://vcabourdin.github.io/resume/)
-
 * [Ansible galaxy](https://galaxy.ansible.com/vcabourdin/)
 * [@vcabourdin](http://twitter.com/vcabourdin) on twitter 
 
@@ -20,3 +18,5 @@ Online version of this markdown: [View](https://vcabourdin.github.io/resume/)
 * [drupal-update](https://github.com/vcabourdin/drupal-update)
 * [jQuery-Module-Pattern](https://github.com/vcabourdin/jQuery-Module-Pattern)
 * [Backbone-App](https://github.com/vcabourdin/Backbone-App)
+
+Online version of this markdown: [View](https://vcabourdin.github.io/resume/)

@@ -7,7 +7,7 @@ You can find my PDF resume here: [View & Download](https://github.com/vcabourdin
 *   [Ansible galaxy](https://galaxy.ansible.com/vcabourdin/)
 *   [@vcabourdin](http://twitter.com/vcabourdin) on twitter 
 
-***Projects on Github - https://github.com/vcabourdin :***
+***Projects on Github - (https://github.com/vcabourdin)  :***
 
 * Ansible rôles:
   * ansible-owncloud-client - https://github.com/vcabourdin/ansible-owncloud-client 

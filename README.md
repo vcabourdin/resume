@@ -2,7 +2,7 @@ Valentin Cabourdin
 ======
 
 
-You can find my PDF resume here: [View & Download](https://github.com/vcabourdin/resume/blob/master/Valentin%20Cabourdin-Resume.pdf)
+You can find my PDF resume here: [View & Download](https://vcabourdin.github.io/resume/Valentin%20Cabourdin-Resume.pdf)
 
 * [Ansible galaxy](https://galaxy.ansible.com/vcabourdin/)
 * [@vcabourdin](http://twitter.com/vcabourdin) on twitter 

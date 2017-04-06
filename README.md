@@ -1,7 +1,7 @@
 resume
 ======
 
-My resume
+You can find my PDF resume here [Download](https://github.com/vcabourdin/resume/blob/master/Valentin%20Cabourdin-Resume.pdf)
 
 **Valentin Cabourdin**
 *   [My resume](https://github.com/vcabourdin/resume/blob/master/Valentin%20Cabourdin-Resume.pdf) on Github

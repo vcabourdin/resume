@@ -1,8 +1,8 @@
 Valentin Cabourdin
 ======
+https://www.linkedin.com/in/vcabourdin/
 
-
-You can find my PDF resume here: [View & Download](https://vcabourdin.github.io/resume/vcabourdin-resume.pdf)
+You can find my PDF resume here: [View & Download](https://vcabourdin.github.io/resume/Valentin Cabourdin - Resume - public.pdf)
 
 * [Ansible galaxy](https://galaxy.ansible.com/vcabourdin/)
 * [@vcabourdin](http://twitter.com/vcabourdin) on twitter 

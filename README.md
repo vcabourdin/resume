@@ -1,6 +1,6 @@
 Valentin Cabourdin
 ======
-https://www.linkedin.com/in/vcabourdin/
+[Linkedin profile](https://www.linkedin.com/in/vcabourdin/)
 
 You can find my PDF resume here: [View & Download](https://vcabourdin.github.io/resume/vcabourdin-resume-public.pdf)
 
